@@ -1,6 +1,6 @@
 #Test problem for optimization solution
 #Booth_Function
-#Find Optimizal value (1,3)
+#Find Optimizal value f(1,3) = 0
 
 import numpy as np
 from scipy.optimize import fsolve
