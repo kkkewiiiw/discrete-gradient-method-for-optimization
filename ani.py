@@ -5,21 +5,19 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as anm
 import wand.image
 
-#\delta t
-h = 0.01
-#Time width
-T = 10
-#number of time steps
-N = int(T/h)
+
+h = #\delta t
+
+T = #Time width
+
+N = #number of time steps
 
 f = lambda x,y : #object function
 
 #variable_z (z = (x,y))
 z = np.ones((N+1,2))
-#variable_x
-z[0,0] = 10 #initial value x
-#variable_y
-z[0,1] = 10 #initial value y
+z[0,0] = #initial value x
+z[0,1] = #initial value y
 
 expr1 = lambda x1,y1,x2,y2 : #calculate by "Ito_Abe_method.py"
 expr2 = lambda x1,y1,x2,y2 : #calculate by "Ito_Abe_method.py"
@@ -54,8 +52,6 @@ for i in range(N):
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
 
-plt.xlim(0,5)
-plt.ylim(0,5)
 plt.xlabel('x')
 plt.ylabel('y')
 
