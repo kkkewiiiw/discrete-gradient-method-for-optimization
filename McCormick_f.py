@@ -1,3 +1,7 @@
+#Test problem for optimization solution
+#McCormick_Function
+#Find Optimizal value f(-0.54719, -1.54719) = -1.9133
+
 import numpy as np
 from scipy.optimize import fsolve
 from sympy import *
