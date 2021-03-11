@@ -19,11 +19,11 @@ z = np.ones((N+1,2))
 z[0,0] = #initial value x
 z[0,1] = #initial value y
 
-expr1 = lambda x1,y1,x2,y2 : #calculate by "Ito_Abe_method.py"
-expr2 = lambda x1,y1,x2,y2 : #calculate by "Ito_Abe_method.py"
+expr1 = lambda x1,y1,x2,y2 : x1 - x2 + h *(#calculate by "Ito_Abe_method.py")
+expr2 = lambda x1,y1,x2,y2 : y1 - y2 + h * (#calculate by "Ito_Abe_method.py")
 
-df_x = lambda x,y,x2 : #calculate by "partial_differencial.py"
-df_y = lambda x,y,y2 : #calculate by "partial_differencial.py"
+df_x = lambda x,y,x2 : x - x2 + h * (#calculate by "partial_differencial.py")
+df_y = lambda x,y,y2 : y - y2 + h * (#calculate by "partial_differencial.py")
 
 for i in range(N):
 
